@@ -23,7 +23,7 @@
         <br>
         <input type="password" name="password" placeholder="password" required>
         <br>
-        <button type="submit" name="btnRegist">Register</button>
+        <button type="submit" name="btnRegist">Register_slebew</button>
         <br>
         Ada akun? <a href="index.php">Login</a>
     </form>
