@@ -35,10 +35,18 @@ class User extends Database
         if (!$query->num_rows) return false;
 
         session_start();
+        $_SESSION['id']       = mysqli_fetch_assoc($query)['id'];
         $_SESSION['username'] = $username;
         $_SESSION['password'] = $password;
 
         return true;
+    }
+
+    public function logout()
+    {
+        session_start();
+        session_destroy();
+        header('Location: index.php');
     }
 }
 
