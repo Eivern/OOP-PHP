@@ -28,5 +28,4 @@
         Ada akun? <a href="index.php">Login</a>
     </form>
 </body>
-
 </html>
